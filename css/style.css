@@ -1,0 +1,56 @@
+body{
+	background-color: #ffe6e6;
+
+}
+#title{
+	font-size: 25px;
+	font-family: Century Gothic, sans-serif;
+	text-align: center;
+	margin-top: 40px;
+}
+
+#container{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+     position: fixed; /* or absolute */
+  top: 25%;
+  left: 35%;
+    
+}
+
+.exercises{
+	font-size: 20px;
+	text-align: center;
+	font-family: Century Gothic, sans-serif;
+	margin-top: 60px;
+	font-weight: lighter;
+
+}
+
+#projects{
+	font-size: 20px;
+	text-align: center;
+	font-family: Century Gothic, sans-serif;
+	font-weight: lighter;
+	margin-top: 40px;
+}
+
+#p1{
+	font-size: 15px;
+	color: #B4DAF2;
+	text-align: center;
+	font-family: Century Gothic, sans-serif;
+	margin-top: 20px;
+	text-decoration: underline;
+}
+
+#exercise1{
+	font-size: 15px;
+	color: #B4DAF2;
+	text-align: center;
+	font-family: Century Gothic, sans-serif;
+	margin-top: 20px;
+	text-decoration: underline;
+}
+
