@@ -1,0 +1,98 @@
+
+
+#shape1{
+	position: absolute;
+	margin-top: 120px;
+	left: 300px;
+	width: 0px;
+	height: 0px;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 80px solid black;
+}
+
+#shape2{
+	position: absolute;
+	margin-top: 70px;
+	left: 620px;
+	width: 0px;
+	height: 0px;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 170px solid black;
+}
+
+#shape3{
+	position: absolute;
+	margin-top: 70px;
+	left: 1050px;
+	width: 85px;
+	height: 170px;
+	background: black;
+}
+
+#shape4{
+	position: absolute;
+	margin-top: 370px;
+	left: 265px;
+	height:85px;
+     width:170px;
+     border-radius: 90px 90px 0 0;
+     -moz-border-radius: 90px 90px 0 0;
+     -webkit-border-radius: 90px 90px 0 0;
+     background:black;
+}
+
+#shape5{
+	position: absolute;
+	margin-top: 370px;
+	left: 700px;
+	width: 100px;
+	height: 100px;
+	background: black;
+	-webkit-clip-path: circle(50% at 0 50%);
+clip-path: circle(50% at 0 50%);
+    font-size: 70px;
+}
+
+#shape6{
+	position: absolute;
+	margin-top: 370px;
+	left: 1050px;
+	width: 0;
+	height: 0;
+	border-top: 100px solid black;
+	border-right: 100px solid transparent;
+}
+
+#shape7{
+	position: absolute;
+	margin-top: 580px;
+	left: 265px;
+	width: 170px;
+	height: 170px;
+	background: black;
+}
+
+#shape8{
+	position: absolute;
+	margin-top: 580px;
+	left: 630px;
+	width: 170px;
+	height: 170px;
+	background: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 170px;
+}
+
+#shape9{
+	position: absolute;
+	margin-top: 630px;
+	left: 1060px;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 100px solid black;
+}
