@@ -1051,7 +1051,7 @@ clip-path: circle(50% at 0 50%);
 	left: 1050px;
 	width: 42px;
 	height: 42px;
-	background: #1ca888;
+	background: #224195;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 100px;
@@ -1065,7 +1065,7 @@ clip-path: circle(50% at 0 50%);
 	height: 0;
 	border-left: 21.5px solid transparent;
 	border-right: 21.5px solid transparent;
-	border-top: 85px solid #1ca888;
+	border-top: 85px solid #224195;
 }
 
 #exclamation3{
