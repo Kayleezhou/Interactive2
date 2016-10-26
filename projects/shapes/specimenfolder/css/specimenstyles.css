@@ -722,7 +722,7 @@ transform:rotate(90deg);
 	left: 635px;
 	width: 0;
 	height: 0;
-	border-bottom: 85px solid #f15a29;
+	border-bottom: 85px solid #224195;
 	border-left: 85px solid transparent;
 }
 
@@ -970,7 +970,7 @@ clip-path: circle(50% at 0 50%);
 	height: 0;
 	border-left: 100px solid transparent;
 	border-right: 100px solid transparent;
-	border-bottom: 170px solid #1ca888;
+	border-bottom: 170px solid #224195;
 	transform:rotate(180deg);
 }
 
