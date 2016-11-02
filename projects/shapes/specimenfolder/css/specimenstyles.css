@@ -1,6 +1,6 @@
 
 
-#shapeA{
+#shapeA1{
 	position: absolute;
 	margin-top: 120px;
 	left: 270px;
@@ -11,6 +11,9 @@
 	border-bottom: 170px solid #224195;
 }
 
+.shapeA1:hover{
+	background-color: #224195
+}
  
 #shapeB1{
 	position: absolute;
@@ -459,35 +462,26 @@ clip-path: circle(50% at 0 50%);
 
 #shapeS1{
 	position: absolute;
-	margin-top: 2505px;
-	left: 330px;
-	width: 85px;
-	height: 170px;
-	background: #ed2329;
+	margin-top: 2450px;
+	left: 250px;
+	width: 150px;
+	height: 150px;
+	background: #fed72f;
+	-webkit-clip-path: circle(50% at 0 50%);
+clip-path: circle(50% at 0 50%);
+transform:rotate(225deg);
 }
 
 #shapeS2{
 	position: absolute;
-	margin-top: 2505px;
-	left: 245px;
-	width: 85px;
-	height: 85px;
-	background: #fed72f;
+	margin-top: 2580px;
+	left: 332px;
+	width: 150px;
+	height: 150px;
+	background: #224195;
 	-webkit-clip-path: circle(50% at 0 50%);
 clip-path: circle(50% at 0 50%);
-    transform:rotate(180deg);
-}
-
-#shapeS3{
-	position: absolute;
-	margin-top: 2590px;
-	left: 415px;
-	width: 85px;
-	height: 85px;
-	background: #fed72f;
-	-webkit-clip-path: circle(50% at 0 50%);
-clip-path: circle(50% at 0 50%);
-    
+transform:rotate(45deg);
 }
 
 
@@ -517,7 +511,7 @@ transform:rotate(90deg);
 	margin-top: 2505px;
 	left: 980px;
 	width: 85px;
-	height: 170px;
+	height: 85px;
 	background: #ed2329;
 }
 
@@ -526,7 +520,7 @@ transform:rotate(90deg);
 	margin-top: 2505px;
 	left: 1065px;
 	width: 85px;
-	height: 170px;
+	height: 85px;
 	background: #224195;
 }
 
@@ -560,7 +554,7 @@ transform:rotate(90deg);
 	margin-top: 2890px;
 	left: 640px;
 	width: 85px;
-	height: 170px;
+	height: 127px;
 	background: #ed2329;
 }
 
@@ -570,7 +564,7 @@ transform:rotate(90deg);
 	margin-top: 2890px;
 	left: 725px;
 	width: 85px;
-	height: 170px;
+	height: 127px;
 	background: #fed72f;
 }
 
@@ -764,9 +758,20 @@ clip-path: circle(50% at 0 50%);
 #number3-1{
 	position: absolute;
 	margin-top: 4075px;
-	left: 365px;
-	width: 170px;
-	height: 170px;
+	left: 410px;
+	width: 85px;
+	height: 85px;
+	background: #fed72f;
+	-webkit-clip-path: circle(50% at 0 50%);
+clip-path: circle(50% at 0 50%);
+}
+
+#number3-5{
+	position: absolute;
+	margin-top: 4160px;
+	left: 410px;
+	width: 85px;
+	height: 85px;
 	background: #fed72f;
 	-webkit-clip-path: circle(50% at 0 50%);
 clip-path: circle(50% at 0 50%);
@@ -954,25 +959,61 @@ clip-path: circle(50% at 0 50%);
 #number8-1{
 	position: absolute;
 	margin-top: 4475px;
-	left: 970px;
-	width: 0;
-	height: 0;
-	border-left: 100px solid transparent;
-	border-right: 100px solid transparent;
-	border-bottom: 170px solid #224195;
+	left: 1130px;
+	width: 85px;
+	height: 85px;
+	background: #fed72f;
+	-webkit-clip-path: circle(50% at 0 50%);
+clip-path: circle(50% at 0 50%);
+
 }
 
 #number8-2{
 	position: absolute;
 	margin-top: 4475px;
-	left: 970px;
-	width: 0;
-	height: 0;
-	border-left: 100px solid transparent;
-	border-right: 100px solid transparent;
-	border-bottom: 170px solid #224195;
-	transform:rotate(180deg);
+	left: 960px;
+	width: 85px;
+	height: 85px;
+	background: #fed72f;
+	-webkit-clip-path: circle(50% at 0 50%);
+clip-path: circle(50% at 0 50%);
+transform:rotate(180deg);
 }
+
+
+#number8-3{
+	position: absolute;
+	margin-top: 4560px;
+	left: 1130px;
+	width: 85px;
+	height: 85px;
+	background: #fed72f;
+	-webkit-clip-path: circle(50% at 0 50%);
+clip-path: circle(50% at 0 50%);
+
+}
+
+#number8-4{
+	position: absolute;
+	margin-top: 4560px;
+	left: 960px;
+	width: 85px;
+	height: 85px;
+	background: #fed72f;
+	-webkit-clip-path: circle(50% at 0 50%);
+clip-path: circle(50% at 0 50%);
+transform:rotate(180deg);
+}
+
+#number8-5{
+	position: absolute;
+	margin-top: 4475px;
+	left: 1045px;
+	width: 85px;
+	height: 170px;
+	background: #ed2329;
+}
+
 
 #number9-1{
 	position: absolute;
@@ -1100,6 +1141,7 @@ clip-path: circle(50% at 0 50%);
 	height: 0;
 	border-bottom: 21px solid #273991;
 	border-right: 21px solid transparent;
+	margin-bottom: 200px;
 }
 
 #q11-1{
@@ -1195,5 +1237,10 @@ clip-path: circle(50% at 0 50%);
 
 .q22{
 	position: absolute;
-	margin-bottom: 300px;
+	margin-bottom: 500px;
 }
+
+
+
+
+
