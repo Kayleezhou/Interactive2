@@ -11,10 +11,10 @@ body{
 
 #container{
     width: 400px;
-    height: 400px;
+    height: 600px;
     background-color: white;
      position: fixed; /* or absolute */
-  top: 25%;
+  top: 15%;
   left: 35%;
     
 }
@@ -64,6 +64,15 @@ body{
 }
 
 #ppt{
+	font-size: 15px;
+	color: #B4DAF2;
+	text-align: center;
+	font-family: Century Gothic, sans-serif;
+	margin-top: 20px;
+	text-decoration: underline;
+}
+
+#ball{
 	font-size: 15px;
 	color: #B4DAF2;
 	text-align: center;
