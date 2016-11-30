@@ -838,12 +838,29 @@
 	width: 200px;
 }
 
+.blackpainting{
+	position: absolute;
+	margin-top: 2700px;
+}
 
 
+#fourth_discription1{
+	font-family: avenir;
+	position: absolute;
+	margin-top: 3515px;
+	text-align: left;
+	left: 500px;
+	font-weight: bolder;
+	color: white;
+}
 
-
-
-
-
-
-
+#fourth_discription2{
+	font-family: avenir;
+	position: absolute;
+	margin-top: 3545px;
+	text-align: left;
+	left: 500px;
+	color: white;
+	width: 580px;
+	line-height: 2;
+}

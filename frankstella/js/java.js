@@ -3,11 +3,12 @@ $('document').ready(function(){
 
 	$('.tri1').hover(function() { 
 		$('.tri2').delay(400).fadeIn(); 
-	}, opacity(1);function() { 
+	},function() { 
 		$('.tri2').fadeOut(); 
 	});
 
 });
+
 
 $('.tri1').hover(function() { 
 	$('.tri3').fadeIn(); 
@@ -343,10 +344,6 @@ $('.tri1').hover(function() {
 	}, function() { 
 		$('.tra53').fadeOut(); 
 	});
-
-
-
-
 
 
 
