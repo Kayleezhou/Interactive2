@@ -2,6 +2,8 @@ body, html {
 	padding: 0;
 	margin: 0;
 	text-align: center;
+  height: 100%;
+}
 
 }
 
@@ -987,58 +989,261 @@ body, html {
 	left: 810px;
 }
 
-.pink2{
+.second2{
 	position: absolute;
-	margin-top: 2201px;
+	margin-top: 2720px;
+	left: -800px;
+}
+
+.pink2{
+	position: relative;
+	margin-top: 0px;
 	left: 310px;
 }
 .grey{
-	position: absolute;
-	margin-top: 2202px;
-	left: 348px;
+	position: relative;
+	margin-top: -584px;
+	left: 310px;
 }
 .red{
-	position: absolute;
-	margin-top: 2202px;
-	left: 389px;
+	position: relative;
+	margin-top: -584px;
+	left: 310px;
+}
+
+.green{
+	position: relative;
+	margin-top: -584px;
+	left: 310px;
+
 }
 .blue{
-	position: absolute;
-	margin-top: 2358px;
-	left: 425px;
-}
-.lightblue{
-	position: absolute;
-	margin-top: 2400px;
-	left: 480px;
+	position: relative;
+	margin-top: -584px;
+	left: 310px;
 }
 
 
-.second{
+
+
+
+
+
+.third img{
 	position: absolute;
-	left: -50px;
+	margin-top: -600px;
+	margin-left:-120px;
+	opacity: 0;
+
 }
 
-#third_discription1{
-	font-family: avenir;
-	position: absolute;
-	margin-top: 2400px;
-	text-align: left;
-	left: 880px;
-	font-weight: bolder;
-}
-#third_discription2{
-	font-family: avenir;
-	position: absolute;
-	margin-top: 2430px;
-	text-align: left;
-	left: 880px;
+
+#thirdcaption1{
+	opacity: 1;
 	width: 200px;
+	position: relative;
+	margin-top: 675px;
+	left: 940px;
+	color: white;
+	font-family: avenir;
+	font-weight: bolder;
+	text-align: left;
+	transform:rotate(292deg);
 }
+
+#thirdcaption2{
+	opacity: 1;
+	width: 200px;
+	font-size: 200px;
+	position: absolute;
+	margin-top: 300px;
+	left: 1150px;
+	color: white;
+	font-family: avenir;
+	text-align: left;
+	-webkit-transition: opacity .5s ease-in-out;
+	-moz-transition: opacity .5s ease-in-out;
+	-o-transition: opacity .5s ease-in-out;
+	transition: opacity .5s ease-in-out;
+
+}
+
+
+#thirdcaption3{
+	opacity: 1;
+	width: 200px;
+	position: relative;
+	margin-top: 685px;
+	left: 1730px;
+	color: white;
+	font-family: avenir;
+	font-weight: bolder;
+	text-align: left;
+}
+
+
+
+.third-target {
+	position: fixed;
+	top: -100%;
+	width: 100%;
+	height: 100vh;
+	background: rgba(0,0,0,.8);
+	opacity: 0;
+	-webkit-transition: opacity .5s ease-in-out;
+	-moz-transition: opacity .5s ease-in-out;
+	-o-transition: opacity .5s ease-in-out;
+	transition: opacity .5s ease-in-out;
+	overflow: hidden;
+	display: block;
+	position: absolute;
+
+
+}
+
+
+.third-target img {
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left:580px;
+	right:0;
+	bottom: 0;
+	max-height: 430px;
+	max-width:830px;
+
+	-webkit-transition: .5s ease-in-out;
+	-moz-transition: .5s ease-in-out;
+	-o-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+
+a.third-close {
+	display: block;
+	width:100%;
+	height:100vh;
+	opacity: 0;
+	text-decoration: none;
+	position: absolute;
+	top: -80px;
+	right: 0;
+	-webkit-transition: .5s ease-in-out;
+	-moz-transition: .5s ease-in-out;
+	-o-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+
+
+a.third-close:before {
+	content: "";
+	display: block;
+	height: 30px;
+	width: 1px;
+	background: black;
+	position: absolute;
+	opacity: 0;
+	left: 26px;
+	top:10px;
+	-webkit-transform:rotate(45deg);
+	-moz-transform:rotate(45deg);
+	-o-transform:rotate(45deg);
+	transform:rotate(45deg);
+}
+
+
+
+a.third-close:after {
+	content: "";
+	display: block;
+	height: 30px;
+	width: 1px;
+	background: black;
+	position: absolute;
+	left: 26px;
+	top:10px;
+	-webkit-transform:rotate(-45deg);
+	-moz-transform:rotate(-45deg);
+	-o-transform:rotate(-45deg);
+	transform:rotate(-45deg);
+}
+
+.third-target:target {
+	opacity: 1;
+	top: 0;
+	bottom: 0;
+}
+
+.third-target:target img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.third-target:target a.lightbox-close {
+	top: 0px;
+}
+
+.slide {
+	background-image: url(../image/frankstella12/real11.png); 
+
+	background-size: 1280px;
+	background-repeat: no-repeat;
+	height: 860px;
+	resize: horizontal; 
+	position: absolute; 
+	top: 0px; left: 880px; 
+	min-width: 0;
+	max-width: 2400px; 
+	max-height: 850px;
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+
+
+.slide:before {
+
+	background: rgba(0,0,0,.7);
+	font-size: 18px; 
+	color: white; 
+	top:0px; right: 0px;
+	height: 100%;
+	line-height: 496px;  
+	position: absolute; 
+}
+
+.charly3{  
+	resize: horizontal; 
+	opacity: 0; 
+	position: relative; 
+	top: 20px;
+	left: 0px; 
+	margin-right: 0px;  
+	width: 0px; height: 15px; 
+	max-width: 1831px; min-width: 15px;
+	max-height: 881px; min-height: 15px;
+	outline: 0 solid transparent; 
+	cursor: move;
+	cursor: all-scroll;
+
+	transform: scaley(35);
+	transform-origin: center center;
+	animation: deltascroll 3s 1 normal ease-in-out 1s;
+
+}
+@keyframes deltascroll {
+	0% {width: 0px}
+	50% {width: 1280px}
+	0% {width: 0px}
+}
+
+
+
+
+
+
 
 .blackpainting{
 	position: absolute;
-	margin-top: 2700px;
+	margin-top: 3500px;
 	left: -380px;
 }
 
@@ -1049,26 +1254,6 @@ body, html {
 	opacity: 0;
 }
 
-#fourth_discription1{
-	font-family: avenir;
-	position: absolute;
-	margin-top: 3465px;
-	text-align: left;
-	left: 440px;
-	font-weight: bolder;
-	color: white;
-}
-
-#fourth_discription2{
-	font-family: avenir;
-	position: absolute;
-	margin-top: 3496px;
-	text-align: left;
-	left: 440px;
-	color: white;
-	width: 580px;
-	line-height: 1.7;
-}
 
 
 
@@ -1210,33 +1395,86 @@ a.lightbox-close:after {
 
 
 
-.yellow img{
+
+
+.bravo {
+	background-image: url(../image/frankstella12/1.jpg); 
+	background-size: 810px;
+	height: 800px;
+	resize: horizontal; 
+	position: absolute; 
+	top: 5px; left: 305px; 
+	min-width: 0;
+	max-width: 880px; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+
+
+.bravo:before {
+
+	background: rgba(0,0,0,.7);
+	font-size: 18px; 
+	color: white; 
+	top:0; right: 0px;
+	height: 100%;
+	line-height: 486px;  
+	position: absolute; 
+}
+
+.charly{  
+	resize: horizontal; 
+	opacity: 0; 
+	position: relative; 
+	top: 50%;
+	left: 0px; 
+	margin-right: 0px;  
+	width: 0px; height: 15px; 
+	max-width: 805px; min-width: 15px; 
+	outline: 0 solid transparent; 
+	cursor: move;
+	cursor: all-scroll;
+	transform: scaley(35);
+	transform-origin: center center;
+	animation: delta 3s 1 normal ease-in-out 1s;
+
+}
+@keyframes delta {
+	0% {width: 0px}
+	50% {width: 880px}
+	0% {width: 0px}
+}
+
+
+
+
+.second img{
 	position: absolute;
-	margin-top: 18px;
-	margin-left:-420px;
+	margin-top: 918px;
+	margin-left:-720px;
 	opacity: 0;
 
 }
 
 
-#yellowcaption1{
+#secondcaption1{
 	opacity: 1;
 	width: 200px;
 	position: absolute;
 	margin-top: 270px;
-	left: 1150px;
+	left: 1970px;
 	color: white;
 	font-family: avenir;
 	font-weight: bolder;
 	text-align: left;
 }
 
-#yellowcaption2{
+#secondcaption2{
 	opacity: 1;
 	width: 200px;
 	position: absolute;
 	margin-top: 300px;
-	left: 1150px;
+	left: 1970px;
 	color: white;
 	font-family: avenir;
 	text-align: left;
@@ -1247,12 +1485,28 @@ a.lightbox-close:after {
 
 }
 
-.yellow-target {
+#secondcaption3{
+	opacity: 1;
+	width: 200px;
+	position: relative;
+	margin-top: 275px;
+	left: 950px;
+	color: red;
+	font-family: avenir;
+	text-align: left;
+	-webkit-transition: opacity .5s ease-in-out;
+	-moz-transition: opacity .5s ease-in-out;
+	-o-transition: opacity .5s ease-in-out;
+	transition: opacity .5s ease-in-out;
+
+}
+
+.second-target {
 	position: fixed;
 	top: -100%;
 	width: 100%;
 	background: rgba(0,0,0,.8);
-	width: 100%;
+	height: 100vh;
 	opacity: 0;
 	-webkit-transition: opacity .5s ease-in-out;
 	-moz-transition: opacity .5s ease-in-out;
@@ -1266,15 +1520,16 @@ a.lightbox-close:after {
 }
 
 
-.yellow-target img {
+.second-target img {
+	width: 854px;
 	margin: auto;
 	position: absolute;
 	top: 0;
-	left:0;
+	left:800px;
 	right:0;
 	bottom: 0;
 	max-height: 0%;
-	max-width: 0%;
+	max-width: 1000px;
 
 	-webkit-transition: .5s ease-in-out;
 	-moz-transition: .5s ease-in-out;
@@ -1282,7 +1537,7 @@ a.lightbox-close:after {
 	transition: .5s ease-in-out;
 }
 
-a.yellow-close {
+a.second-close {
 	display: block;
 	width:100%;
 	height:100vh;
@@ -1298,7 +1553,7 @@ a.yellow-close {
 }
 
 
-a.yellow-close:before {
+a.second-close:before {
 	content: "";
 	display: block;
 	height: 30px;
@@ -1315,7 +1570,7 @@ a.yellow-close:before {
 
 
 
-a.yellow-close:after {
+a.second-close:after {
 	content: "";
 	display: block;
 	height: 30px;
@@ -1330,19 +1585,71 @@ a.yellow-close:after {
 	transform:rotate(-45deg);
 }
 
-.yellow-target:target {
+.second-target:target {
 	opacity: 1;
 	top: 0;
 	bottom: 0;
 }
 
-.yellow-target:target img {
+.second-target:target img {
 	max-height: 100%;
 	max-width: 100%;
 }
 
-.yellow-target:target a.lightbox-close {
+.second-target:target a.lightbox-close {
 	top: 0px;
+}
+
+
+
+.real {
+	background-image: url(../image/frankstella12/real2.jpg); 
+
+	background-size: 850px;
+	height: 840px;
+	resize: horizontal; 
+	position: absolute; 
+	top: 0px; left: 1085px; 
+	min-width: 0;
+	max-width: 1400px; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+
+
+.real:before {
+
+	background: rgba(0,0,0,.7);
+	font-size: 18px; 
+	color: white; 
+	top:0; right: 0px;
+	height: 100%;
+	line-height: 486px;  
+	position: absolute; 
+}
+
+.charly2{  
+	resize: horizontal; 
+	opacity: 0; 
+	position: relative; 
+	top: 50%;
+	left: 0px; 
+	margin-right: 0px;  
+	width: 0px; height: 15px; 
+	max-width: 831px; min-width: 15px;
+	max-height: 871px; min-height: 15px;
+	outline: 0 solid transparent; 
+	cursor: move;
+	cursor: all-scroll;
+	transform: scaley(35);
+	transform-origin: center center;
+	animation: delta 3s 1 normal ease-in-out 1s;
+
+}
+@keyframes delta {
+	0% {width: 0px}
+	50% {width: 880px}
+	0% {width: 0px}
 }
 
 
@@ -1370,6 +1677,178 @@ a.yellow-close:after {
 
 
 
+
+
+
+.fourth img{
+	position: absolute;
+	margin-top: 218px;
+	margin-left:-800px;
+	opacity: 0;
+
+}
+
+
+
+
+.fourth-target {
+	position: fixed;
+	height: 100vh;
+	top: -100%;
+	width: 100%;
+	background: rgba(0,0,0,.8);
+	width: 100%;
+	opacity: 0;
+	-webkit-transition: opacity .5s ease-in-out;
+	-moz-transition: opacity .5s ease-in-out;
+	-o-transition: opacity .5s ease-in-out;
+	transition: opacity .5s ease-in-out;
+	overflow: hidden;
+	display: block;
+	position: absolute;
+
+
+}
+
+
+.fourth-target img {
+	background-repeat: no-repeat;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left:230px;
+	right:0;
+	bottom: 0;
+	max-height: 0%;
+	max-width: 0%;
+
+	-webkit-transition: .5s ease-in-out;
+	-moz-transition: .5s ease-in-out;
+	-o-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+
+a.fourth-close {
+	display: block;
+	width:100%;
+	height:100vh;
+	opacity: 0;
+	text-decoration: none;
+	position: absolute;
+	top: -80px;
+	right: 0;
+	-webkit-transition: .5s ease-in-out;
+	-moz-transition: .5s ease-in-out;
+	-o-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+
+
+a.fourth-close:before {
+	content: "";
+	display: block;
+	height: 30px;
+	width: 1px;
+	background: black;
+	position: absolute;
+	left: 26px;
+	top:10px;
+	-webkit-transform:rotate(45deg);
+	-moz-transform:rotate(45deg);
+	-o-transform:rotate(45deg);
+	transform:rotate(45deg);
+}
+
+
+
+a.fourth-close:after {
+	content: "";
+	display: block;
+	height: 30px;
+	width: 1px;
+	background: black;
+	position: absolute;
+	left: 26px;
+	top:10px;
+	-webkit-transform:rotate(-45deg);
+	-moz-transform:rotate(-45deg);
+	-o-transform:rotate(-45deg);
+	transform:rotate(-45deg);
+}
+
+.fourth-target:target {
+	opacity: 1;
+	top: 0;
+	bottom: 0;
+}
+
+.fourth-target:target img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.fourth-target:target a.fourth-close {
+	top: 0px;
+}
+
+
+
+.slidebar {
+	background-image: url(../image/frankstella12/13.jpg); 
+	background-repeat: no-repeat;
+	background-size: 1310px;
+	height: 860px;
+    left: 860px;
+	position: absolute;
+	min-width: 0;
+	max-width: 2400px; 
+	max-height: 850px;
+	overflow: hidden;
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+
+
+
+.slidingbar:before {
+
+	background: rgba(0,0,0,.7);
+	font-size: 18px; 
+	color: white; 
+	top:0; right: 0px;
+	height: 100%;
+	line-height: 486px;  
+	position: absolute; 
+}
+
+.charly4{  
+	resize: horizontal; 
+	opacity: 0; 
+	position: relative; 
+	top: 20px;
+	left: 0px; 
+	margin-right: 0px;  
+	width: 0px; height: 15px; 
+	max-width: 1831px; min-width: 15px; 
+	outline: 0 solid transparent; 
+	cursor: move;
+	cursor: all-scroll;
+	transform: scaley(35);
+	transform-origin: center center;
+	animation: deltascrolling 3s 1 normal ease-in-out 1s;
+
+}
+@keyframes deltascrolling {
+	0% {width: 0px}
+	50% {width: 1310px}
+	0% {width: 0px}
+}
+
+
+
+
+
+
 .frankstella{
 	position: fixed;
 	font-size: 115px;
@@ -1392,3 +1871,24 @@ a.yellow-close:after {
 	overflow: visible;
 }
 
+
+.biography{
+	position: fixed;
+	left: -30px;
+	opacity: 0;
+}
+
+.biography:hover{
+	opacity: 1;
+
+}
+
+
+.exhibition{
+	position: fixed;
+	left: 950px;
+	opacity: 0;
+}
+
+.exhibition:hover{
+	opacity: 1;
