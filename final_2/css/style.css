@@ -1025,10 +1025,6 @@ body, html {
 
 
 
-
-
-
-
 .third img{
 	position: absolute;
 	margin-top: -600px;
@@ -1102,85 +1098,7 @@ body, html {
 }
 
 
-.third-target img {
-	margin: auto;
-	position: absolute;
-	top: 0;
-	left:580px;
-	right:0;
-	bottom: 0;
-	max-height: 430px;
-	max-width:830px;
 
-	-webkit-transition: .5s ease-in-out;
-	-moz-transition: .5s ease-in-out;
-	-o-transition: .5s ease-in-out;
-	transition: .5s ease-in-out;
-}
-
-a.third-close {
-	display: block;
-	width:100%;
-	height:100vh;
-	opacity: 0;
-	text-decoration: none;
-	position: absolute;
-	top: -80px;
-	right: 0;
-	-webkit-transition: .5s ease-in-out;
-	-moz-transition: .5s ease-in-out;
-	-o-transition: .5s ease-in-out;
-	transition: .5s ease-in-out;
-}
-
-
-a.third-close:before {
-	content: "";
-	display: block;
-	height: 30px;
-	width: 1px;
-	background: black;
-	position: absolute;
-	opacity: 0;
-	left: 26px;
-	top:10px;
-	-webkit-transform:rotate(45deg);
-	-moz-transform:rotate(45deg);
-	-o-transform:rotate(45deg);
-	transform:rotate(45deg);
-}
-
-
-
-a.third-close:after {
-	content: "";
-	display: block;
-	height: 30px;
-	width: 1px;
-	background: black;
-	position: absolute;
-	left: 26px;
-	top:10px;
-	-webkit-transform:rotate(-45deg);
-	-moz-transform:rotate(-45deg);
-	-o-transform:rotate(-45deg);
-	transform:rotate(-45deg);
-}
-
-.third-target:target {
-	opacity: 1;
-	top: 0;
-	bottom: 0;
-}
-
-.third-target:target img {
-	max-height: 100%;
-	max-width: 100%;
-}
-
-.third-target:target a.lightbox-close {
-	top: 0px;
-}
 
 .slide {
 	background-image: url(../image/frankstella12/real11.png); 
